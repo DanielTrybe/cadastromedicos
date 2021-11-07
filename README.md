@@ -32,7 +32,7 @@ Execute no terminal o comando <code>npm start</code> estando dentro da pasta rai
 
 Para cadastrar um novo médico da forma correta, você deve fazer uma requisição no Postman na aba "Body" do tipo <code>POST</code> para <code>http://localhost:3000/createmedic</code> com o objeto nesta estrutura:
 
-<code>
+```json
 {
     "name": "algumnome",
     "CRM": 1234567,
@@ -41,7 +41,7 @@ Para cadastrar um novo médico da forma correta, você deve fazer uma requisiç�
     "Cep": "01153000",
     "Especialidade": ["cardiaco", "geral"]
 }
-</code>
+```
 
 Desta forma você receberá uma mensagem que o médico foi criado!
 Não tente criar médicos com nomes iguais, isso resultará em um erro!
