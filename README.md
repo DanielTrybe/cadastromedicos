@@ -20,9 +20,9 @@ Entre no terminal e digite:
 
 ## Observações importantes
 
-O <code>http://localhost:3000/</code> é o endereço padrão para a aplicação funcionar.
-No postman, na aba "Body" o formato dos objetos devem ser em JSON, aconselho a selecionar o tipo RAW, fica mais fácil de colocar o objeto.
-Configure o arquivo <code>config.json</code> com as informações do banco de dados e acesso tanto para desenvolvimento e testes, se não nada vai funcionar (provavelmente só o username e password precisam ser alterados para o seu).
+1. O <code>http://localhost:3000/</code> é o endereço padrão para a aplicação funcionar.
+2. No postman, na aba "Body" o formato dos objetos devem ser em JSON, aconselho a selecionar o tipo RAW, fica mais fácil de colocar o objeto.
+3. Configure o arquivo <code>config.json</code> com as informações do banco de dados e acesso tanto para desenvolvimento e testes, se não nada vai funcionar (provavelmente só o username e password precisam ser alterados para o seu).
 
 ## Iniciando
 
