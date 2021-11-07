@@ -83,7 +83,7 @@ No começo cadastramos nosso primeiro médico com este objeto abaixo, ele foi o 
 }
 ```
 
- ao pesquisar por ele, no endereço <code>http://localhost:3000/findmedic</code> como fizemos acima, a aplicação vai retornar o objeto dele com o <code>id: 1</code>, então vamos para o endereço <code>http://localhost:3000/updatemedic/1</code> onde o 1 é o id retornado pelo endereço de pesquisa, então vamos na aba <code>Body</code> colocaremos o seguinte objeto para atualizar o nosso médico cadastrado no começo:
+Ao pesquisar por ele, no endereço <code>http://localhost:3000/findmedic</code> como fizemos acima, a aplicação vai retornar o objeto dele com o <code>id: 1</code>, então vamos para o endereço <code>http://localhost:3000/updatemedic/1</code> onde o 1 é o id retornado pelo endereço de pesquisa, então vamos na aba <code>Body</code> colocaremos o seguinte objeto para atualizar o nosso médico cadastrado no começo:
 
 ```json
 {
