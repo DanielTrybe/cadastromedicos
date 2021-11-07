@@ -58,11 +58,11 @@ Após cadastrar um médico, vá na rota informada e no Postman em headers coloqu
 
 Para deletar algum médico, faça uma requisição no Postman com método "DELETE" para <code>http://localhost:3000/deletemedic</code> passando na aba "Body" o nome do médico, por exemplo:
 
-<code>
+```json
 {
   "name": "algumnome",
 }
-</code>
+```
 
 A aplicação vai ir no banco de dados, buscar essa pessoa e deletar ela no banco. Caso o médico não exista, vai retornar um erro pedido para que seja cadastrado.
 
@@ -72,7 +72,7 @@ Para atualizar os dados de algum médico, você precisar saber o <code>id</code>
 
 No começo cadastramos nosso primeiro médico com este objeto abaixo, ele foi o primeiro da lista:
 
-<code>
+```json
 {
     "name": "algumnome",
     "CRM": 1234567,
@@ -81,11 +81,11 @@ No começo cadastramos nosso primeiro médico com este objeto abaixo, ele foi o 
     "Cep": "01153000",
     "Especialidade": ["cardiaco", "geral"]
 }
-</code>
+```
 
  ao pesquisar por ele, no endereço <code>http://localhost:3000/findmedic</code> como fizemos acima, a aplicação vai retornar o objeto dele com o <code>id: 1</code>, então vamos para o endereço <code>http://localhost:3000/updatemedic/1</code> onde o 1 é o id retornado pelo endereço de pesquisa, então vamos na aba <code>Body</code> colocaremos o seguinte objeto para atualizar o nosso médico cadastrado no começo:
 
-<code>
+```json
 {
     "name": "carinha que mora logo ali",
     "CRM": 8765432,
@@ -94,7 +94,7 @@ No começo cadastramos nosso primeiro médico com este objeto abaixo, ele foi o 
     "Cep": "01153000",
     "Especialidade": ["bebês", "oftalmologista"]
 }
-</code>
+```
 
 Ao enviar este requisição, o médico selecionado será atualizado.
 
