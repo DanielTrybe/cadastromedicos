@@ -54,6 +54,23 @@ Para encontrar algum médico, pasta fazer uma requisição no Postman com métod
 
 Após cadastrar um médico, vá na rota informada e no Postman em headers coloque uma chave qualquer do objeto de cadastro, como <code>CRM</code> com o valor do médico cadastrado, que nesse caso é <code>"1234567"</code>. Isto irá retornar o médico pesquisado, tente com as outras chaves também!, somente pela Especialidade não é possível.
 
+Exemplo do objeto retornado ao pesquisar pelo nome <code>medico sensasional</code>
+
+```json
+{
+    "medic": {
+        "id": 2,
+        "name": "medico sensasional",
+        "CRM": 423442,
+        "Telefone": 6566565,
+        "Celular": 36636366,
+        "Cep": "06786360",
+        "Adress": "logradouro: Rua Milton Martins Moura - Vila Francisco Remeikis - Taboão da Serra, SP",
+        "Especialidade": "cardiaco, geral"
+    }
+}
+```
+
 # Deletando um médico
 
 Para deletar algum médico, faça uma requisição no Postman com método "DELETE" para <code>http://localhost:3000/deletemedic</code> passando na aba "Body" o nome do médico, por exemplo:
