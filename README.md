@@ -42,7 +42,7 @@ Para cadastrar um novo médico da forma correta, você deve fazer uma requisiç�
     "Especialidade": ["cardiaco", "geral"]
 }
 ```
-<img width="500" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9b9fa210-4b87-47c5-9936-d9dcbf21718f/deub14a-dc6b14eb-7067-4ed8-a22e-a3c3deca343c.png/v1/fill/w_1280,h_326,q_80,strp/criar_by_darkdanielr_deub14a-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MzI2IiwicGF0aCI6IlwvZlwvOWI5ZmEyMTAtNGI4Ny00N2M1LTk5MzYtZDlkY2JmMjE3MThmXC9kZXViMTRhLWRjNmIxNGViLTcwNjctNGVkOC1hMjJlLWEzYzNkZWNhMzQzYy5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.-9B51t3y_U_YdPU9gKexQS_muP-iv1511sKeDBONShU" />
+<img width="1000" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9b9fa210-4b87-47c5-9936-d9dcbf21718f/deub14a-dc6b14eb-7067-4ed8-a22e-a3c3deca343c.png/v1/fill/w_1280,h_326,q_80,strp/criar_by_darkdanielr_deub14a-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MzI2IiwicGF0aCI6IlwvZlwvOWI5ZmEyMTAtNGI4Ny00N2M1LTk5MzYtZDlkY2JmMjE3MThmXC9kZXViMTRhLWRjNmIxNGViLTcwNjctNGVkOC1hMjJlLWEzYzNkZWNhMzQzYy5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.-9B51t3y_U_YdPU9gKexQS_muP-iv1511sKeDBONShU" />
 
 Desta forma você receberá uma mensagem que o médico foi criado!
 Não tente criar médicos com nomes iguais, isso resultará em um erro!
