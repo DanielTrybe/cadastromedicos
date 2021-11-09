@@ -28,6 +28,9 @@ Entre no terminal e digite:
 
 Execute no terminal o comando <code>npm start</code> estando dentro da pasta raiz deste projeto e sua aplicação vai começar a funcionar, no terminal vai aparecer a mensagem: "ouvindo porta 3000!" caso tudo acima tenha sido feito corretamente, caso contrário refaça as etapas anteriores.
 
+Lembre-se de executar os comandos: <code>npx sequelize db:create</code> e <code>npx sequelize db:migrate</code> para criar o banco de dados.
+Estes comandos devem ser executados após todas instalações para criar o banco de dados.
+
 # Criando um médico
 
 Para cadastrar um novo médico da forma correta, você deve fazer uma requisição no Postman na aba "Body" do tipo <code>POST</code> para <code>http://localhost:3000/createmedic</code> com o objeto nesta estrutura:
