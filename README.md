@@ -71,6 +71,7 @@ Exemplo do objeto retornado ao pesquisar pelo nome <code>medico sensasional</cod
     }
 }
 ```
+<img height="300" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9b9fa210-4b87-47c5-9936-d9dcbf21718f/deub14g-af8e00ff-4680-4b2f-b36d-cc22eab83234.jpg/v1/fill/w_1280,h_377,q_75,strp/procurar_by_darkdanielr_deub14g-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9Mzc3IiwicGF0aCI6IlwvZlwvOWI5ZmEyMTAtNGI4Ny00N2M1LTk5MzYtZDlkY2JmMjE3MThmXC9kZXViMTRnLWFmOGUwMGZmLTQ2ODAtNGIyZi1iMzZkLWNjMjJlYWI4MzIzNC5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.GpaX6SKqaeNH-Cz1VHZ9wJtc3e6BgWEwV3jFR-m4zLE" />
 
 # Deletando um médico
 
@@ -81,6 +82,8 @@ Para deletar algum médico, faça uma requisição no Postman com método "DELET
   "name": "algumnome",
 }
 ```
+
+<img height="300" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9b9fa210-4b87-47c5-9936-d9dcbf21718f/deub14d-5a97a90f-b0de-4b96-acdd-f931da46dc61.png/v1/fill/w_1280,h_324,q_80,strp/deletar_by_darkdanielr_deub14d-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MzI0IiwicGF0aCI6IlwvZlwvOWI5ZmEyMTAtNGI4Ny00N2M1LTk5MzYtZDlkY2JmMjE3MThmXC9kZXViMTRkLTVhOTdhOTBmLWIwZGUtNGI5Ni1hY2RkLWY5MzFkYTQ2ZGM2MS5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.c-MnmddTXl18lIhPkn-5EV2VBS2PJE4zCaAY1Efv17k" />
 
 A aplicação vai ir no banco de dados, buscar essa pessoa e deletar ela no banco. Caso o médico não exista, vai retornar um erro pedido para que seja cadastrado.
 
@@ -100,6 +103,8 @@ No começo cadastramos nosso primeiro médico com este objeto abaixo, ele foi o 
     "Especialidade": ["cardiaco", "geral"]
 }
 ```
+
+<img height="300" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9b9fa210-4b87-47c5-9936-d9dcbf21718f/deub145-f4776b50-64d1-4379-8023-e964de0fca5c.png/v1/fill/w_1280,h_396,q_80,strp/atualizar_by_darkdanielr_deub145-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9Mzk2IiwicGF0aCI6IlwvZlwvOWI5ZmEyMTAtNGI4Ny00N2M1LTk5MzYtZDlkY2JmMjE3MThmXC9kZXViMTQ1LWY0Nzc2YjUwLTY0ZDEtNDM3OS04MDIzLWU5NjRkZTBmY2E1Yy5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.NUeRmAmh4cBanhtVVDDXwPXmvYK-c9UJ88f5oJ6QvAo" />
 
 Ao pesquisar por ele, no endereço <code>http://localhost:3000/findmedic</code> como fizemos acima, a aplicação vai retornar o objeto dele com o <code>id: 1</code>, então vamos para o endereço <code>http://localhost:3000/updatemedic/1</code> onde o 1 é o id retornado pelo endereço de pesquisa, então vamos na aba <code>Body</code> colocaremos o seguinte objeto para atualizar o nosso médico cadastrado no começo:
 
