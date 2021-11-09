@@ -42,6 +42,7 @@ Para cadastrar um novo médico da forma correta, você deve fazer uma requisiç�
     "Especialidade": ["cardiaco", "geral"]
 }
 ```
+<img width="100" src="https://drive.google.com/file/d/1sgkHipXg_-gt0KZvKOc14rtRN1c4YADO/view" />
 
 Desta forma você receberá uma mensagem que o médico foi criado!
 Não tente criar médicos com nomes iguais, isso resultará em um erro!
